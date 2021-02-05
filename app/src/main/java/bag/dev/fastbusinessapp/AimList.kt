@@ -1,4 +1,5 @@
-package bag.dev.timerapp
+package bag.dev.fastbusinessapp
+
 
 data class AimList (
     var aim:String,

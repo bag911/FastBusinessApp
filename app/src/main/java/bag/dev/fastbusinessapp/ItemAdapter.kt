@@ -1,4 +1,4 @@
-package bag.dev.timerapp
+package bag.dev.fastbusinessapp
 
 import android.content.Context
 import android.graphics.Color
@@ -33,7 +33,7 @@ class ItemAdapter (private var activity: MainActivity,private var context: Conte
         holder.viewProgress.visibility= View.VISIBLE
         timer.schedule(object : TimerTask(){
             override fun run(){
-               activity.runOnUiThread{
+                activity.runOnUiThread{
                     time--
                     hours = time/3600
                     minutes = time%3600/60

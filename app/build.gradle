@@ -6,12 +6,12 @@ android {
     compileSdkVersion 30
     buildToolsVersion "30.0.1"
 
-    buildFeatures {
-        viewBinding true
+    viewBinding{
+        enabled = true
     }
 
     defaultConfig {
-        applicationId "bag.dev.timerapp"
+        applicationId "bag.dev.fastbusinessapp"
         minSdkVersion 21
         targetSdkVersion 30
         versionCode 1

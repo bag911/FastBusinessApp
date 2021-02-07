@@ -10,7 +10,7 @@ class MainActivity : AppCompatActivity() {
     private lateinit var binding: ActivityMainBinding
     private var aList = ArrayList<AimList>()
     private lateinit var adapter:ItemAdapter
-    private val fullTime = 86400
+    private val fullTime = 10
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = ActivityMainBinding.inflate(layoutInflater)
